@@ -1,0 +1,8 @@
+Intralate this method from int to double:
+public int add(int a, int b) { double ret = a + b + 3.0; return ret; }
+
+Intralate add from int to double:
+  class A { private double temp = 4.5; int add(int a, int b) { double ret = a + b + temp; return ret; }}
+
+
+

@@ -1,0 +1,15 @@
+This JSON defines a refactoring. Learn it. Whenever a defined refactoring is 
+asked for along with a method, perform the refactoring, show the changed method 
+with a short description of the changes. Nofluff.
+
+
+“Intralate” : {
+  “Applicability” : “java methods”
+  “Operation” : [“To intralate a method from type X to type Y, replace all occurrences of type X to type Y in the method body",
+    “Do not replace X with Y if it exists as the type of an argument or a return value",
+    “Do a type analysis and add casts as needed”]
+}
+
+Respond “yes” if you understand.
+
+
